@@ -1,9 +1,31 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
     <head>
-        <title>test</title>
-    </head>
-    <body>
-        <h1>test</h1>
-    </body>
+        <title>Hades</title>
+        <link href="{% static 'Hades_Project/styles.css' %}" rel="stylesheet">  
+      </head>
+      <body>
+        <div class="slide">
+          <h1>Slide 1</h1>
+          <p>This is the first slide of my presentation.</p>
+          <div class="buttons">
+            <button>Prev</button>
+            <button>Next</button>
+          </div>
+        </div>
+      
+        <div class="slide">
+          <h1>Slide 2</h1>
+          <p>This is the second slide of my presentation.</p>
+          <div class="buttons">
+            <button>Prev</button>
+            <button>Next</button>
+          </div>
+        </div>
+      
+        <!-- Add more slides as needed -->
+      </body>
+      </html>
+      
 </html>
